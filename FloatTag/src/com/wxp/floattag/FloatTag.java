@@ -11,18 +11,18 @@ public class FloatTag extends LinearLayout {
 
 	private ScrollView mScrollView;
 	private View mFloatTagView;
-	
+
 	private FloatTagStateListener mFloatTagStateListener;
-	
+
 	boolean mScrollUp=true;
 	public FloatTag(Context context){
 		this(context, null);
 	}
 	public FloatTag(Context context, AttributeSet attrs) {
-		super(context, attrs);		
+		super(context, attrs);
 		setOrientation(LinearLayout.VERTICAL);
 	}
-	
+
 	@Override
 	public void computeScroll() {
 		// TODO Auto-generated method stub
@@ -45,9 +45,9 @@ public class FloatTag extends LinearLayout {
 	    		}
 	    	}
 	    }
-	
+
 	}
-	
+
 	public void init(ScrollView scrollView,View floatTagView,FloatTagStateListener listener){
 		this.mScrollView=scrollView;
 		this.mFloatTagView=floatTagView;
