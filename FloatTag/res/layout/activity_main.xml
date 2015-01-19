@@ -22,14 +22,14 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200px"
-                    android:src="@drawable/ic_launcher" />
+                    android:src="@drawable/bg" />
 
                 <Button
-                    android:background="#000000"
+                    android:background="#e00032"
                     android:id="@+id/id_btn_tag"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="float_tag" />
+                    android:text="@string/app_name" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="2000px"
-                    android:src="@drawable/ic_launcher" />
+                    android:src="@drawable/bg" />
             </LinearLayout>
         </ScrollView>
     </com.wxp.floattag.FloatTag>
@@ -49,8 +49,8 @@
         android:id="@+id/id_btn_float_tag"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#000000"
-        android:text="float_tag"
+        android:background="#4d69ff"
+        android:text="@string/app_name"
          />
 
 </RelativeLayout>
